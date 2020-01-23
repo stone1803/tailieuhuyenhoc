@@ -11,7 +11,7 @@ function App() {
       <nav>
         <div class="nav-wrapper bg-dark">
           <a href="" class="brand-logo center">
-          🐉 TRICK TIPS - BAZI - FENGSHUI 🐉
+          🐉
           </a>
         </div>
       </nav>

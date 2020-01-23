@@ -28,9 +28,8 @@ export default class Content extends Component {
   render() {
     return (
       <div className="bg-dark text-light">
-        <div class="row">
-          <div className="col s6 m12 text-center">
-            <h4 className="text-center text-light">Say ! Hello</h4>
+        <div className="col s6 m4 text-center">
+            <h5 className="text-center text-light">Say ! Hello</h5>
             <img src="//graph.facebook.com/100000838467269/picture?type=large"></img>
             <p className="mt-2">
               Website được xây dựng bằng react + firebase database +
@@ -45,7 +44,9 @@ export default class Content extends Component {
              👉 FB.COM/PHUCBUN
             </a>
           </div>
-          <div class="col s6 m12">
+        <div class="row">
+          
+          <div class="col s1 m1">
             {this.state.Content.map(item => {
               return (
                 <div className="card blue-grey darken-1">
@@ -54,7 +55,7 @@ export default class Content extends Component {
                     <p>{item.content}</p>
                   </div>
                   <div className="card-action">
-                    <a href="#">This is a link</a>
+                    <a href="#">SHARE FACEBOOK</a>
                     <a href="#">This is a link</a>
                   </div>
                 </div>
