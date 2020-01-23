@@ -29,7 +29,7 @@ export default class Content extends Component {
     return (
       <div className="bg-dark text-light">
         <div class="row">
-          <div className="col s6 text-center">
+          <div className="col s6 m12 text-center">
             <h4 className="text-center text-light">Say ! Hello</h4>
             <img src="//graph.facebook.com/100000838467269/picture?type=large"></img>
             <p className="mt-2">
@@ -45,7 +45,7 @@ export default class Content extends Component {
              👉 FB.COM/PHUCBUN
             </a>
           </div>
-          <div class="col s6 m6">
+          <div class="col s6 m12">
             {this.state.Content.map(item => {
               return (
                 <div className="card blue-grey darken-1">
